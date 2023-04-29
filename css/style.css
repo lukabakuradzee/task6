@@ -1,0 +1,64 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  /* border: 2px solid red; */
+  padding: 67.17px 98px 67.55px 99.12px; 
+  /* margin: 0 auto; */
+  
+}
+.div_parent {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_logo {
+  width: 30%;
+}
+.logo_name {
+  color: #27187F;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Inter';
+  /* border: 2px solid yellow; */
+}
+
+nav {
+ width: 40%;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  
+}
+
+li {
+color: #758BFD;
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+}
+
+.active {
+  color: #27187F;
+}
+
+.search_box {
+  width: 20%;
+  border: 2px solid #27187F;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-end;
+
+}
